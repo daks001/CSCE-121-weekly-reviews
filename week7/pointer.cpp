@@ -11,34 +11,34 @@ void print_array(int (&arr)[5][5]) {
 }
 
 int main() {
-    // int a = 10;
-    // int* b = &a;
-    // cout << "a is = " << a << endl;
-    // cout << "&a is = " << &a << endl;
-    // cout << "b is = " << b << endl;
-    // cout << "&b is = " << &b << endl;
-    // cout << "dereferencing, *b is = " << *b << endl;
-    // cout << "...................." << endl;
+    int a = 10;
+    int* b = &a;
+    cout << "a is = " << a << endl;
+    cout << "&a is = " << &a << endl;
+    cout << "b is = " << b << endl;
+    cout << "&b is = " << &b << endl;
+    cout << "dereferencing, *b is = " << *b << endl;
+    cout << "...................." << endl;
 
-    // double* n = nullptr;
-    // cout << n << endl;
-    // cout << n+1 << endl;
-    // //0 1 2 3 4 5 6 7, 8
-    // cout << "...................." << endl;
+    double* n = nullptr;
+    cout << n << endl;
+    cout << n+1 << endl;
+    //0 1 2 3 4 5 6 7, 8
+    cout << "...................." << endl;
 
-    // char s[] = "hello"; //{'h', 'e', 'l', 'l', 'o'}
-    // char* c_ptr = s;
-    // cout << c_ptr << endl;
-    // cout << "*c_ptr is = " << *c_ptr << endl;
-    // cout << "*(c_ptr+1) is = " << *(c_ptr+1) << endl;
+    char s[] = "hello"; //{'h', 'e', 'l', 'l', 'o'}
+    char* c_ptr = s;
+    cout << c_ptr << endl;
+    cout << "*c_ptr is = " << *c_ptr << endl;
+    cout << "*(c_ptr+1) is = " << *(c_ptr+1) << endl;
 
-    // cout << "...................." << endl;
-    // int arr[] = {1, 2, 3, 4, 5}; //stack
-    // int* arr_ptr = arr;
-    // cout << "&arr is = " << &arr << endl; 
-    // cout << "arr_ptr is = " << arr_ptr << endl;
-    // cout << "*arr_ptr is = " << *arr_ptr << endl;
-    // cout << "*(arr_ptr+1) is = " << *(arr_ptr+1) << endl;
+    cout << "...................." << endl;
+    int arr[] = {1, 2, 3, 4, 5}; //stack
+    int* arr_ptr = arr;
+    cout << "&arr is = " << &arr << endl; 
+    cout << "arr_ptr is = " << arr_ptr << endl;
+    cout << "*arr_ptr is = " << *arr_ptr << endl;
+    cout << "*(arr_ptr+1) is = " << *(arr_ptr+1) << endl;
 
     //{-1, -1, -1, -1, -1}
     //{10, 20, -1, -1, -1}
